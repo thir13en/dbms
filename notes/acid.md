@@ -18,3 +18,6 @@ Set of properties that ensure the reliability and consistency of transactions in
     Durability:
         Definition: Durability guarantees that once a transaction is committed, its effects are permanent and survive any subsequent failures, such as power outages or system crashes.
         Example: After a user makes changes to a database and receives a confirmation, durability ensures that even if the system crashes immediately afterward, the changes will be preserved when the system is restored.
+
+## What is a transaction?
+A transaction is a collection of queries that are treated as a single unit of work. Always begins with the keywork `BEGIN` and it ends with the keyword `COMMIT`. When things do not go right, we end up doing a `ROLLBACK`. You can have `readonly` transactions.
