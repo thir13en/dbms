@@ -21,3 +21,6 @@ Set of properties that ensure the reliability and consistency of transactions in
 
 ## What is a transaction?
 A transaction is a collection of queries that are treated as a single unit of work. Always begins with the keywork `BEGIN` and it ends with the keyword `COMMIT`. When things do not go right, we end up doing a `ROLLBACK`. You can have `readonly` transactions.
+
+## Atomicity
+Guarantees that operations (transctions etc) are carried in an unary manner and only persisted/commited when fully completed.
