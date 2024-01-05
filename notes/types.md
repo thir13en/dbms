@@ -34,3 +34,8 @@ Search databases, often built on top of the Apache Lucene project, specialize in
 Examples: FaunaDB.
 
 Multimodel databases like FaunaDB allow you to describe how to access your data using GraphQL, offering flexibility by leveraging multiple database paradigms through runtime GraphQL optimizations. This approach enables you to combine the strengths of various database models to meet the specific needs of your application, making it a versatile choice for modern data-driven applications.
+
+## Vector
+Examples: Elasticsearch with Vector Search, Faiss, Milvus, Pinecone, Weaviate, VectorFlow..
+
+A vector database is a type of database designed to efficiently handle vector data, which are data points represented in multi-dimensional space. This format is particularly useful for applications that rely on machine learning, artificial intelligence, and complex data analytics. The core idea behind a vector database is to enable fast and efficient searching and manipulation of vector data, which is often not feasible with traditional relational databases.
